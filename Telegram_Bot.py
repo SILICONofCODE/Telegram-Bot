@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import json
 import requests
 
-updater=Updater("5281574717:AAEGjIBG9a_HdVpU8FMtKychb0c51MO0Sjo",use_context=True)
+updater=Updater("*****own_bot_code_here_from_telegram",use_context=True)
 dispatcher = updater.dispatcher
 
 def hello(update,context):
